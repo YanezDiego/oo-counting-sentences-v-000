@@ -17,7 +17,8 @@ class String
 
   def count_sentences
     new_sentence = []
-    self.split.length
+    self.split
+    new_sentence << self
     binding.pry
   end
 end
