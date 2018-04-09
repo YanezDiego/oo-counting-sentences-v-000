@@ -1,9 +1,10 @@
 require 'pry'
 
 class String
+  attr_accessor :sentence
 
   def sentence?
-    
+    @sentence.ends_with?('.')
   end
 
   def question?
