@@ -18,6 +18,6 @@ class String
   def count_sentences
     self.split(/((?<=[a-z0-9)][.?!])|(?<=[a-z0-9][.?!]"))\s+(?="?[A-Z])/).length
 
-    binding.pry
+    #binding.pry
   end
 end
