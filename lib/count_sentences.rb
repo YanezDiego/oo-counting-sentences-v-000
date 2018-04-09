@@ -3,7 +3,7 @@ require 'pry'
 class String
   attr_accessor :sentence
 
-  def sentence?
+  def sentence?(sentence)
     @sentence.end_with? (".")
   end
 
